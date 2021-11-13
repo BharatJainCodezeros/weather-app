@@ -6,8 +6,6 @@ services:
     ports:
       - "3000:3000"
     env_file: ./frontend/.env
-    environment:
-      - REACT_APP_SERVER_URL=${REACT_APP_SERVER_URL}
     networks:
       - weather-app
   api-server:
@@ -15,9 +13,6 @@ services:
     ports:
       - "4000:4000"
     env_file: ./backend/.env
-    environment:
-      - API_URL=${API_URL}
-      - API_KEY=${API_KEY}
     networks:
       - weather-app
 networks:
