@@ -2,8 +2,6 @@
 
 ## Objective
 
----
-
 Build an Apollo GraphQL application that exposes weather data.
 
 You can use a free account from [https://www.weatherapi.com/](https://www.weatherapi.com/)
@@ -12,8 +10,6 @@ Please be sure to not spend more then 2-5 days on this.
 
 ## Project Goals
 
----
-
 - Able to run locally with ease (hint: maybe dockerize your app?)
 - Create instructions on how to run the application
 - Demonstrate ability to think on the fly
@@ -21,8 +17,6 @@ Please be sure to not spend more then 2-5 days on this.
 - I am able to retrieve weather by city
 
 ## How to run this application
-
----
 
 To run the application with ease, I've dockerize your application
 
